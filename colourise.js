@@ -83,16 +83,6 @@ const initialise = () => {
 
     state.tableListener = true;
   }
-
-  if (!state.styles) {
-    const iframe = document.querySelectorAll('iframe#microConsole-Logs')[0];
-
-    if (!iframe) return;
-
-
-
-    state.styles = true;
-  }
 };
 
 
