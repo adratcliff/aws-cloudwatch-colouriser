@@ -3,11 +3,17 @@
   "name": "AWS CloudWatch Colouriser",
   "description": "Colourise AWS CloudWatch Logs, making them easier to read.",
   "author": "adratcliff",
-  "version": " 1.0.0",
+  "version": "1.0.0",
   "content_scripts": [
     {
       "matches": [ "https://*.console.aws.amazon.com/cloudwatch/*" ],
       "js": [ "colourise.js" ]
     }
-  ]
+  ],
+  "icons": {
+    "16": "16.png",
+    "32": "32.png",
+    "48": "48.png",
+    "128": "128.png"
+  }
 }
